@@ -39,7 +39,7 @@ public class RequestHandler extends Thread {
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
             String requestHttpHeader = getRequestHttpHeader(br);
             
-//            // 여기서 get방식과 post방식 분리하는게 좋을 것 같음
+            // 여기서 get방식과 post방식 분리하는게 좋을 것 같음
             String[] content = requestHttpHeader.split(" ");
             String method = content[0];
             
