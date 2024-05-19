@@ -18,10 +18,10 @@
 * 소켓으로 받은 inputStream의 URI에 대한 정보를 알맞게 파싱한 후 .\webapp\ + '파싱한 내용' 에 위치한 파일 내용을 읽어와서 dataOutputStream으로 소켓을 통해 출력한다.
 
 ### 요구사항 2 - get 방식으로 회원가입
-* 
+* inputStream으로 받은 httpHeader내용을 알맞게 파싱한 후 쿼리스트링 내용을 이용하여 User객체 생성
 
 ### 요구사항 3 - post 방식으로 회원가입
-* 
+* inputStream으로 받은 httpBody내용을 알맞게 파싱한 후 쿼리스트링 내용을 이용하여 User객체 생성
 
 ### 요구사항 4 - redirect 방식으로 이동
 * 
